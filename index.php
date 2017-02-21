@@ -8,22 +8,20 @@ $uur = date("H");
 $minuut = date("i");
 $seconde = date("s");
 
-if ($uur >= 0)
+					if ($uur >= 0)
 {
 
 		$tijd = "nacht";
-		if ($uur >= 6)
+					if ($uur >= 6)
 
 		{
-			$tijd = "morgen";
-			if ($uur >= 12)
+		$tijd = "morgen";
+					if ($uur >= 12)
 			{
-				$tijd = "middag";
-				if ($uur >= 18)
+		$tijd = "middag";
+					if ($uur >= 18)
 				{
-					$tijd = "avond";
-					
-
+		$tijd = "avond";
 				}
 
 			}
