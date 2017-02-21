@@ -11,7 +11,7 @@ body.morgen {
 	
 	background: url(backgrounds/morning.png);
 	background-size: cover;
-	background-repeat: no-repeat
+	background-repeat: no-repeat;
 }
 
 body.middag {

@@ -13,7 +13,6 @@ $seconde = date("s");
 
 		$tijd = "nacht";
 					if ($uur >= 6)
-
 		{
 		$tijd = "morgen";
 					if ($uur >= 12)
@@ -41,7 +40,7 @@ $seconde = date("s");
 <head>
 <link rel="stylesheet" type="text/css" href="stylesheet.css"></link>
 	<title>Goedemorgen | Jordy Lock</title>
-	<meta http-equiv="refresh" content="1" >
+		<meta http-equiv="refresh" content="1" >
 </head>
 <body class="<?php echo $tijd;?>">
 
